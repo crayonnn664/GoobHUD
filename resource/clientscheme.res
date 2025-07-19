@@ -18,6 +18,13 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//Custom Hud Colors :33333//
+		"Nothing"				"0 0 0 0"
+		"GoobWhite"				"243 243 243 255"
+		"GoobShadow"			"25 25 25 255"
+		"GoobLow"				"200 50 50 255"
+		"GoobLowShadow"			"35 20 20 255"
+
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -208,42 +215,6 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
-		
-		//Custom Hud Colors :33333//
-		
-		"SillyHudWhite" 		"255 255 255 255"
-		"SillyHudPrimary"		"0 183 255 255"
-		"SillyHudSecondary"		"0 140 190 255"
-		"SillyHudTextShadow"	"18 18 18 255"
-		"SillyHudTextShadow2"	"35 35 35 255"
-		"SillyHudUnderline"		"255 255 255 255"
-		"SillyHudUnderlineShadow"	"18 18 18 255"
-		
-		"SillyHudHealthNeutral"	"255 255 255 255"
-		"SillyHudHealthLow1"	"200 0 0 255"
-		"SillyHudHealthLow2"	"200 40 40 255"
-		"SillyHudHealthBonus1"	"255 255 255 255"
-		"SillyHudHealthBonus2"	"80 210 255 255"
-		
-		"SillyHudAmmoInClip"	"255 255 255 255"
-		"SillyHudAmmoInReserve"	"200 200 200 255"
-		"SillyHudAmmoNoClip"	"255 255 255 255"
-		"SillyHudLowAmmo1"		"200 0 0 255"
-		"SillyHudLowAmmo2"		"200 40 40 255"
-		
-		"SillyHudMedicUberPercent"	"255 255 255 255"
-		"SillyHudMedicMeterFG"		"0 183 255 255"
-		"SillyHudMedicMeterBG"		"0 140 190 255"
-		"SillyHudMedicFullCharge1"	"0 183 255 255"
-		"SillyHudMedicFullCharge2"	"120 240 255 255"
-		
-		"SillyHudItemMeterLabel"	"35 35 35 255"
-		"SillyHudItemMeterBG"		"18 18 18 255"
-		"SillyHudItemCounter"		"0 183 255 255"
-		"SillyHudStickybombMeter" 	"255 255 255 255"
-		"SillyHudStickybombCounter"	"255 255 255 255"
-		"SillyHudMetalIcon"			"0 183 255 255"
-		"SillyHudMetalCounter"		"255 255 255 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -3071,6 +3042,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		// Custom Hud Font //
 		"TF2R 4"
 		{
@@ -3591,6 +3563,60 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"60"
+				"antialias" "1"
+			}
+		}
+		"TF2S 62"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"62"
+				"antialias" "1"
+			}
+		}
+		"TF2S 64"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"64"
+				"antialias" "1"
+			}
+		}
+		"TF2S 66"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"66"
+				"antialias" "1"
+			}
+		}
+		"TF2S 68"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"68"
+				"antialias" "1"
+			}
+		}
+		"TF2S 70"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"70"
+				"antialias" "1"
+			}
+		}
+		"TF2S 72"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"72"
 				"antialias" "1"
 			}
 		}

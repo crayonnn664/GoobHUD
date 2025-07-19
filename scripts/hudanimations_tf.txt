@@ -206,10 +206,10 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.5
 
-	RunEvent HudHealthBonusPulseLoop	0.4
+
+	RunEvent HudHealthBonusPulseLoop	0.5
 }
 
 // call to loop HudHealthBonusPulse
@@ -220,6 +220,8 @@ event HudHealthBonusPulseLoop
 
 event HudHealthBonusPulseStop
 {
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.0 0.0
+	
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 }
@@ -229,10 +231,12 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.5
+	Animate PlayerStatusHealthValue			fgcolor		"GoobLow"		Linear 0.0 0.25
+	Animate PlayerStatusHealthValue			fgcolor		"GoobWhite"		Linear 0.25 0.5
+	Animate	PlayerStatusHealthValueShadow	fgcolor		"GoobLowShadow"	Linear 0.0 0.5
 	
-	RunEvent HudHealthDyingPulseLoop	0.25
+	RunEvent HudHealthDyingPulseLoop	0.5
 }
 
 // call to loop HudHealthDyingPulse
@@ -243,6 +247,10 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0 0.5
+	Animate	PlayerStatusHealthValueShadow	fgcolor		"GoobShadow"	Linear	0.0 0.0
+	Animate PlayerStatusHealthValue			fgcolor		"GoobWhite"	Linear 	0.0 0.0
+	
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 }
@@ -251,10 +259,17 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+	Animate	AmmoInClip					fgcolor		"GoobLow"		Linear	0.0 .25
+	Animate	AmmoInClip					fgcolor		"GoobWhite"		Linear	.25 .5
+	Animate	AmmoInClipShadow			fgcolor		"GoobLowShadow"	Linear	0.0 .5
+	Animate	AmmoInReserve				fgcolor		"GoobLow"		Linear	0.0 .25
+	Animate	AmmoInReserve				fgcolor		"GoobWhite"		Linear	.25 .5
+	Animate	AmmoInReserveShadow			fgcolor		"GoobLowShadow"	Linear	0.0 .5
+	Animate	AmmoNoClip					fgcolor		"GoobLow"		Linear	0.0 .25
+	Animate	AmmoNoClip					fgcolor		"GoobWhite"		Linear	.25 .5
+	Animate	AmmoNoClipShadow			fgcolor		"GoobLowShadow"	Linear	0.0 .5
 	
-	RunEvent HudLowAmmoPulseLoop	0.25
+	RunEvent HudLowAmmoPulseLoop	0.50
 }
 
 // call to loop HudLowAmmoPulse
@@ -265,6 +280,13 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
+	Animate AmmoInClip					fgcolor		"GoobWhite"		Linear	0.0 0.0
+	Animate AmmoInClipShadow			fgcolor		"GoobShadow"	Linear	0.0 0.0
+	Animate AmmoInReserve				fgcolor		"GoobWhite"		Linear	0.0 0.0
+	Animate AmmoInReserveShadow			fgcolor		"GoobShadow"	Linear	0.0 0.0
+	Animate AmmoNoClip					fgcolor		"GoobWhite"		Linear	0.0 0.0
+	Animate AmmoNoClipShadow			fgcolor		"GoobShadow"	Linear	0.0 0.0
+	
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 }
