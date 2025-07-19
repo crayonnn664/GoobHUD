@@ -25,6 +25,10 @@ Scheme
 		"GoobLow"				"200 50 50 255"
 		"GoobLowShadow"			"35 20 20 255"
 
+		"GoobBlueTeamTransparent"	"70 128 255 100"
+		"GoobRedTeamTransparent"	"255 0 0 100"
+		
+
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
