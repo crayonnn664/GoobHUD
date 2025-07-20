@@ -24,10 +24,8 @@ Scheme
 		"GoobShadow"			"25 25 25 255"
 		"GoobLow"				"200 50 50 255"
 		"GoobLowShadow"			"35 20 20 255"
+		"GoobWhiteOutline"		"243 243 243 200"
 
-		"GoobBlueTeamTransparent"	"70 128 255 100"
-		"GoobRedTeamTransparent"	"255 0 0 100"
-		
 
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -2003,8 +2001,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"12"
+				"name"		"Verdana"
+				"tall"		"32"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"

@@ -201,21 +201,81 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
 		"zpos"			"1"		
-		"wide"			"0"
+		"wide"			"100"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 	}	
+	
+	"MatchStatusOutline1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MatchStatusOutline1"
+		"xpos"			"394"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"24"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"GoobWhiteOutline"
+		
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
+	
+	"MatchStatusOutline2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MatchStatusOutline2"
+		"xpos"			"457"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"24"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"GoobWhiteOutline"
+		
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
+	
+	"MatchStatusOutline3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MatchStatusOutline3"
+		"xpos"			"394"
+		"ypos"			"24"
+		"zpos"			"1"
+		"wide"			"64"
+		"tall"			"1"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"GoobWhiteOutline"
+		
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
 	
 	"MatchStatusBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MatchStatusBG"
 		"xpos"			"394"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"64"
-		"tall"			"24"
+		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -239,7 +299,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"GoobRedTeamTransparent"
+		"fillcolor"		"HUDRedTeam"
 		
 		if_match
 		{
@@ -259,7 +319,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"GoobBlueTeamTransparent"
+		"fillcolor"	"HUDBlueTeam"
 		
 		if_match
 		{
@@ -381,11 +441,11 @@
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"GoobWhite"
-			"xpos"			"23"
+			"xpos"			"10"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"11"
+			"ypos"			"0"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
