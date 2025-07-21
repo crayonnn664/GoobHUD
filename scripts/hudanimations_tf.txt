@@ -206,7 +206,7 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"200"		Linear 0.0 0.5
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"150"		Linear 0.0 0.5
 
 
 	RunEvent HudHealthBonusPulseLoop	0.5
@@ -231,7 +231,7 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"200"			Linear 0.0 0.5
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"150"			Linear 0.0 0.5
 	Animate PlayerStatusHealthValue			fgcolor		"GoobLow"		Linear 0.0 0.25
 	Animate PlayerStatusHealthValue			fgcolor		"GoobWhite"		Linear 0.25 0.5
 	Animate	PlayerStatusHealthValueShadow	fgcolor		"GoobLowShadow"	Linear 0.0 0.5

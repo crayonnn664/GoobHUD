@@ -251,10 +251,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MatchStatusOutline3"
-		"xpos"			"394"
-		"ypos"			"24"
+		"xpos"			"395"
+		"ypos"			"23"
 		"zpos"			"1"
-		"wide"			"64"
+		"wide"			"62"
 		"tall"			"1"
 		"visible"		"0"
 		"enabled"		"1"

@@ -1,10 +1,13 @@
--Target ID
-
-lower priority:
 -Item Meters
 -Engineer Hud
 -Medic Hud
 -Spy Hud
 
+low priority:
+Spectator/Respawn Screen
+Class Select
+Team Select
+
 lowest priority:
 MvM Hud
+Menus

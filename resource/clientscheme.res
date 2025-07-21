@@ -24,7 +24,7 @@ Scheme
 		"GoobShadow"			"25 25 25 255"
 		"GoobLow"				"200 50 50 255"
 		"GoobLowShadow"			"35 20 20 255"
-		"GoobWhiteOutline"		"243 243 243 200"
+		"GoobWhiteOutline"		"25 25 25 100"
 
 
 		// base colors
