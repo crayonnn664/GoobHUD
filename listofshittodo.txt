@@ -1,5 +1,6 @@
 -Engineer Hud
 -Spy Hud
+-Game Chat
 
 low priority:
 Spectator/Respawn Screen
@@ -20,4 +21,7 @@ Tug of War
 VsH
 Zombie Infection
 
--Center like every single hud element
+Highest Priority:
+-Center hud elements properly
+(Match Hud Timer, Item Meters, Scoreboard(maybe))
+

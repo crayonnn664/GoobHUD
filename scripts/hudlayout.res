@@ -31,7 +31,7 @@
 		"fieldName" "HudObjectiveStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
+		"xpos"	"-3"
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
@@ -199,7 +199,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-427"	[$WIN32]
+		"xpos"					"c-429"	[$WIN32]
 		"ypos"					"0"	[$WIN32]
 		"ypos_minmode"			"r134"	[$WIN32]
 		"xpos"					"r194"	[$X360]
@@ -218,7 +218,7 @@
 		"xpos_minmode"			"61"
 		"ypos"					"r152"
 		"ypos_minmode"			"r134"
-		"wide"					"116"
+		"wide"					"150"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -314,8 +314,8 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
+		"xpos"		"-20"	[$WIN32]
+		"ypos"		"80"	[$WIN32]
 		"xpos"		"32"	[$X360]
 		"ypos"		"16"	[$X360]		
 		"wide"		"640"
@@ -329,10 +329,10 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
+		"xpos"		"-20"
 		"xpos_hidef"		"32"
 		"xpos_lodef"		"40"
-		"ypos"		"0"
+		"ypos"		"80"
 		"ypos_hidef"		"16"
 		"ypos_lodef"		"25"
 		"wide"		"640"
@@ -1502,7 +1502,7 @@
 		"fieldName"				"HudMatchStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
+		"xpos"					"3"
 		"ypos"					"0"
 		"zpos"					"3"
 		"wide"					"f0"
