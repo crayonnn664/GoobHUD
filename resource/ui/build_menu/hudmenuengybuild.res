@@ -8,7 +8,7 @@
 		"ypos"			"10"
 		"zpos"			"0"
 		"wide"			"450"
-		"tall"			"170"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -20,12 +20,60 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Divider"
-		"xpos"			"8"
-		"ypos"			"47"
+		"xpos"			"40"
+		"ypos"			"32"
 		"zpos"			"1"
-		"wide"			"436"
-		"tall"			"2"
-		"fillcolor"		"255 222 208 255"
+		"wide"			"370"
+		"tall"			"116"
+		"fillcolor"		"GoobShadowTransparent"
+	}
+	
+	"Outline1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline1"
+		"xpos"			"40"
+		"ypos"			"32"
+		"zpos"			"1"
+		"wide"			"370"
+		"tall"			"1"
+		"fillcolor"		"GoobWhiteOutline"
+	}
+	
+	"Outline2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline2"
+		"xpos"			"40"
+		"ypos"			"147"
+		"zpos"			"1"
+		"wide"			"370"
+		"tall"			"1"
+		"fillcolor"		"GoobWhiteOutline"
+	}
+	
+	"Outline3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline3"
+		"xpos"			"40"
+		"ypos"			"33"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"114"
+		"fillcolor"		"GoobWhiteOutline"
+	}
+	
+	"Outline4"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline4"
+		"xpos"			"409"
+		"ypos"			"33"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"114"
+		"fillcolor"		"GoobWhiteOutline"
 	}
 	
 	"BuildIcon"	
@@ -36,7 +84,7 @@
 		"ypos"			"-8"
 		"zpos"			"1"
 		"wide"			"48"
-		"tall"			"48"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -52,7 +100,7 @@
 		"ypos"			"-7"
 		"zpos"			"0"
 		"wide"			"48"
-		"tall"			"48"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -64,12 +112,13 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
-		"xpos"			"68"			// align me to the left edge of the first selection
-		"ypos"			"0"
+		"font"			"TF2S 24"
+		"fgcolor"		"GoobWhite"
+		"xpos"			"50"			// align me to the left edge of the first selection
+		"ypos"			"30"
 		"zpos"			"2"
 		"wide"			"300"
-		"tall"			"38"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -84,13 +133,13 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"Black"
-		"xpos"			"69"			// align me to the left edge of the first selection
-		"ypos"			"1"
+		"font"			"TF2S 24"
+		"fgcolor"		"GoobShadow"
+		"xpos"			"51"			// align me to the left edge of the first selection
+		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"38"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -105,10 +154,11 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"SpectatorKeyHints"
-		"xpos"			"218"
-		"ypos"			"35"
-		"zpos"			"1"
+		"font"			"TF2S 8"
+		"fgcolor"		"GoobWhite"
+		"xpos"			"200"
+		"ypos"			"45"
+		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"13"
 		"autoResize"	"0"

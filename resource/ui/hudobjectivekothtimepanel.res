@@ -4,6 +4,7 @@
 	{
 		if_match
 		{
+			"xpos"		"329"
 			"zpos"		"5"
 		}
 	}

@@ -1,6 +1,5 @@
--Engineer Hud
--Spy Hud
--Game Chat
+-Engineer Hud (Build/Destroy PDA)
+-Spy Hud (Disguise Menu)
 
 low priority:
 Spectator/Respawn Screen
@@ -21,7 +20,4 @@ Tug of War
 VsH
 Zombie Infection
 
-Highest Priority:
--Center hud elements properly
-(Match Hud Timer, Item Meters, Scoreboard(maybe))
 
