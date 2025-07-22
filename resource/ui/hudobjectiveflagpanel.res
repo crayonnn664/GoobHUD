@@ -318,12 +318,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-25"
-		"ypos"			"r73"	[$WIN32]
+		"xpos"			"c-14"
+		"ypos"			"r82"	[$WIN32]
 		"ypos"			"r158"	[$X360]
 		"zpos"			"10"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -346,8 +346,8 @@
 		"fieldName"		"PlayingTo"
 		"xpos"			"360"	[$WIN32]
 		"xpos"			"0"	[$X360]
-		"ypos"			"365"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"ypos"			"371"	[$WIN32]
+		"ypos"			"r38"	[$X360]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
 		"wide"			"120"	[$X360]
@@ -358,7 +358,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"TF2S 10"
 		"fgcolor"		"GoobWhite"
 		
 		"if_hybrid"
@@ -506,12 +506,12 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-40"
+		"xpos"			"405"
 		"ypos"			"r95"	[$WIN32]
 		"ypos"			"r116"	[$X360]
 		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"45"
+		"tall"			"45"
 		"visible"		"0"
 		"enabled"		"1"
 		

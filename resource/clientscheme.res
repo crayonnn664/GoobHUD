@@ -21,10 +21,14 @@ Scheme
 		//Custom Hud Colors :33333//
 		"Nothing"				"0 0 0 0"
 		"GoobWhite"				"243 243 243 255"
+		"GoobWhiteDark"			"200 200 200 255"
 		"GoobShadow"			"25 25 25 255"
 		"GoobLow"				"200 50 50 255"
 		"GoobLowShadow"			"35 20 20 255"
 		"GoobWhiteOutline"		"25 25 25 100"
+		"GoobShadowTransparent"	"25 25 25 100"
+		"MedicCharge1"			"243 243 243 255"
+		"MedicCharge2"			"150 150 150 255"
 
 
 		// base colors

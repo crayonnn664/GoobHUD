@@ -34,6 +34,32 @@
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
 	}
+	"Marker"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Marker"
+		"xpos"			"0"
+		"ypos"			"430"
+		"wide"			"900"
+		"tall"			"1"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"GoobWhite"
+	}
+	"Marker2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Marker2"
+		"xpos"			"0"
+		"ypos"			"385"
+		"wide"			"900"
+		"tall"			"1"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"GoobWhite"
+	}
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -69,7 +95,7 @@
 		"zpos"			"7"
 		"wide"			"55"
 		"wide_minmode"	"27"
-		"tall"			"55"
+		"tall"			"0"
 		"tall_minmode"	"27"
 		"visible"		"0"
 		"enabled"		"1"

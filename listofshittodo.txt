@@ -1,13 +1,23 @@
--Item Meters
 -Engineer Hud
--Medic Hud
 -Spy Hud
 
 low priority:
 Spectator/Respawn Screen
 Class Select
 Team Select
+Inspect Panel? (maybe)
 
 lowest priority:
 MvM Hud
 Menus
+Pass Time
+Arena
+Player Destruction
+Robot Destruction
+Special Delivery
+Territorial Control
+Tug of War
+VsH
+Zombie Infection
+
+-Center like every single hud element
