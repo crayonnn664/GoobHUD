@@ -7,47 +7,15 @@
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"0"
-		"wide"			"250"
+		"wide"			"0"
 		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"paintbackground" "0"
+		"icon"			"hud_menu_bg"
+		"iconColor"		"255 255 255 255"
 	}
-
-	"ItemBackground"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"250"
-		"tall"			"180"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"pipboy_overlay"
-		"tileImage"		"1"
-		"drawcolor"		"192 192 192 255"
-	}
-	"BackgroundEngineer"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BackgroundEngineer"
-		"xpos"			"205"
-		"ypos"			"140"
-		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"pipboy_engineer"
-		"tileImage"		"0"
-		"tileVertically" "0"
-	}
-
+	
 	"BuildIcon"	
 	{
 		"ControlName"	"CIconPanel"
@@ -55,22 +23,99 @@
 		"xpos"			"15"
 		"ypos"			"-8"
 		"zpos"			"1"
-		"wide"			"48"
+		"wide"			"0"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
+	}
+	
+	"BuildIconShadow"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"BuildIconShadow"
+		"xpos"			"16"
+		"ypos"			"-7"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_build"
+		"iconColor"		"0 0 0 255"
+	}
+
+	"Divider"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Divider"
+		"xpos"			"40"
+		"ypos"			"32"
+		"zpos"			"1"
+		"wide"			"170"
+		"tall"			"116"
+		"fillcolor"		"GoobShadowTransparent"
+	}
+	
+	"Outline1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline1"
+		"xpos"			"40"
+		"ypos"			"32"
+		"zpos"			"1"
+		"wide"			"170"
+		"tall"			"1"
+		"fillcolor"		"GoobWhiteOutline"
+	}
+	
+	"Outline2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline2"
+		"xpos"			"40"
+		"ypos"			"147"
+		"zpos"			"1"
+		"wide"			"170"
+		"tall"			"1"
+		"fillcolor"		"GoobWhiteOutline"
+	}
+	
+	"Outline3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline3"
+		"xpos"			"40"
+		"ypos"			"33"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"114"
+		"fillcolor"		"GoobWhiteOutline"
+	}
+	
+	"Outline4"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline4"
+		"xpos"			"209"
+		"ypos"			"33"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"114"
+		"fillcolor"		"GoobWhiteOutline"
 	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiant"
-		"xpos"			"68"			// align me to the left edge of the first selection
-		"ypos"			"8"
+		"font"			"TF2S 16"
+		"fgcolor"		"GoobWhite"
+		"xpos"			"48"			// align me to the left edge of the first selection
+		"ypos"			"22"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
@@ -82,18 +127,39 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+	}
+	
+	"TitleLabelDropshadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelDropshadow"
+		"font"			"TF2S 16"
+		"fgcolor"		"GoobShadow"
+		"xpos"			"49"			// align me to the left edge of the first selection
+		"ypos"			"23"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_Menu_Teleport_Title"
+		"textAlignment"	"Left"
+		"dulltext"		"1"
+		"brighttext"	"0"
 	}
 	
 	"CancelLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"SpectatorKeyHints"
-		"xpos"			"35"
+		"font"			"TF2S 8"
+		"fgcolor"		"GoobWhite"
+		"xpos"			"5"
 		"ypos"			"35"
-		"zpos"			"1"
-		"wide"			"200"
+		"zpos"			"2"
+		"wide"			"0"
 		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -103,7 +169,6 @@
 		"textAlignment"	"East"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
 	}
 	
 	"available_target_1"

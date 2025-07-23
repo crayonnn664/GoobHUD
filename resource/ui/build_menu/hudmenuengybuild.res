@@ -159,7 +159,7 @@
 		"xpos"			"200"
 		"ypos"			"45"
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"0"
 		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"

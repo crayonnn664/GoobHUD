@@ -1,14 +1,12 @@
--Engineer Hud (Build/Destroy PDA)
--Spy Hud (Disguise Menu)
-
-low priority:
 Spectator/Respawn Screen
 Class Select
 Team Select
+
+low priority:
 Inspect Panel? (maybe)
+MvM Hud
 
 lowest priority:
-MvM Hud
 Menus
 Pass Time
 Arena

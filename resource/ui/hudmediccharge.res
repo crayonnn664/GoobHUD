@@ -233,6 +233,7 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
 		"pin_to_sibling"	"ChargeMeter1"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
 }

@@ -59,41 +59,6 @@
 		"fgcolor"		"GoobWhite"
 	}
 	
-	"MetalIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"30"
-		"ypos"			"23"
-		"zpos"			"1"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"GoobWhite"
-	}
-	
-	"CostLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"CostLabel"
-		"font"			"HudFontSmall"
-		"fgcolor"		"GoobWhite"
-		"xpos"			"7"
-		"ypos"			"21"
-		"zpos"			"1"
-		"wide"			"84"
-		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%metal%"
-		"textAlignment"	"Center"	
-	}
-
 	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"

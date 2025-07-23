@@ -1,12 +1,12 @@
-"Resource/UI/build_menu/base_already_built.res"
+"Resource/UI/build_menu/base.res"
 {
 	"ItemNameLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Default"
-		"xpos"			"6"
-		"ypos"			"0"
+		"font"			"TF2S 12"
+		"xpos"			"7"
+		"ypos"			"9"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"15"
@@ -16,33 +16,33 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"labelText_lodef"		"#TF_Object_Sentry_360"
-		"textAlignment"	"Left"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"GoobWhite"
 	}
-	
-	"ItemBackground"	
+
+	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
 		"xpos"			"4"
 		"ypos"			"14"
 		"zpos"			"0"
-		"wide"			"98"
+		"wide"			"0"
 		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"0 0 0 255"
+		"icon"			"hud_menu_item_bg"
+		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"CantBuildReason"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Default"
+		"font"			"TF2S 12"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -56,23 +56,23 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"GoobWhite"
 	}
 	
 	"MetalIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"10"
-		"ypos"			"18"
+		"xpos"			"30"
+		"ypos"			"23"
 		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"8"
+		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"GoobWhite"
 	}
 	
 	"CostLabel"
@@ -80,8 +80,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"HudFontSmall"
-		"xpos"			"23"
-		"ypos"			"17"
+		"fgcolor"		"GoobWhite"
+		"xpos"			"7"
+		"ypos"			"21"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"13"
@@ -90,16 +91,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
-		"fgcolor"		"0 255 0 255"
+		"textAlignment"	"Center"	
 	}
-	
+
 	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanDarker"
 		"xpos"			"33"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -111,9 +111,8 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"East"	
-		"fgcolor"		"0 255 0 255"
 	}
-		
+	
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -121,23 +120,23 @@
 		"xpos"			"41"
 		"ypos"			"99"
 		"zpos"			"0"
-		"wide"			"18"
+		"wide"			"0"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
-		"fgcolor"		"Black"
+		"font"			"TF2S 10"
+		"fgcolor"		"GoobWhite"
 		"xpos"			"0"
-		"ypos"			"98"
+		"ypos"			"85"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"
@@ -149,6 +148,5 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
 	}
 }

@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"14"
 		"zpos"			"0"
-		"wide"			"450"
+		"wide"			"0"
 		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"
@@ -20,14 +20,62 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Divider"
-		"xpos"			"8"
-		"ypos"			"51"
-		"zpos"			"0"
-		"wide"			"436"
-		"tall"			"2"
-		"fillcolor"		"255 222 208 255"
+		"xpos"			"24"
+		"ypos"			"32"
+		"zpos"			"1"
+		"wide"			"402"
+		"tall"			"125"
+		"fillcolor"		"GoobShadowTransparent"
 	}
 	
+	"Outline1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline1"
+		"xpos"			"24"
+		"ypos"			"32"
+		"zpos"			"1"
+		"wide"			"402"
+		"tall"			"1"
+		"fillcolor"		"GoobWhiteOutline"
+	}
+	
+	"Outline2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline2"
+		"xpos"			"24"
+		"ypos"			"156"
+		"zpos"			"1"
+		"wide"			"402"
+		"tall"			"1"
+		"fillcolor"		"GoobWhiteOutline"
+	}
+	
+	"Outline3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline3"
+		"xpos"			"24"
+		"ypos"			"33"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"123"
+		"fillcolor"		"GoobWhiteOutline"
+	}
+	
+	"Outline4"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Outline4"
+		"xpos"			"425"
+		"ypos"			"33"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"123"
+		"fillcolor"		"GoobWhiteOutline"
+	}
+
 	"DestroyIcon"	
 	{
 		"ControlName"	"CIconPanel"
@@ -35,7 +83,7 @@
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"1"
-		"wide"			"64"
+		"wide"			"0"
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
@@ -48,10 +96,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"Black"
-		"xpos"			"32"			// align me to the left edge of the first selection
-		"ypos"			"7"
+		"font"			"TF2S 24"
+		"fgcolor"		"GoobShadow"
+		"xpos"			"31"			// align me to the left edge of the first selection
+		"ypos"			"27"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"35"
@@ -69,9 +117,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
-		"xpos"			"31"			// align me to the left edge of the first selection
-		"ypos"			"4"
+		"font"			"TF2S 24"
+		"fgcolor"		"GoobWhite"
+		"xpos"			"30"			// align me to the left edge of the first selection
+		"ypos"			"25"
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"38"
@@ -89,11 +138,12 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"SpectatorKeyHints"
+		"font"			"TF2S 8"
+		"fgcolor"		"GoobWhite"
 		"xpos"			"218"
 		"ypos"			"39"
-		"zpos"			"1"
-		"wide"			"200"
+		"zpos"			"2"
+		"wide"			"0"
 		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"

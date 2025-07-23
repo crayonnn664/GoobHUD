@@ -4,8 +4,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Default"
-		"xpos"			"6"
+		"font"			"TF2S 12"
+		"fgcolor"		"GoobWhite"
+		"xpos"			"42"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"84"
@@ -18,7 +19,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
 	}
 	
 	"ItemBackground"	
@@ -28,20 +28,21 @@
 		"xpos"			"4"
 		"ypos"			"14"
 		"zpos"			"0"
-		"wide"			"98"
+		"wide"			"0"
 		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhiteTransparent"
 	}
 	
 	"NotBuiltLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"Default"
+		"font"			"TF2S 12"
+		"fgcolor"		"GoobWhite"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -55,14 +56,13 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
 	}	
 
 	"UnavailableLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"UnavailableLabel"
-		"font"			"Default"
+		"font"			"TF2S 12"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -76,7 +76,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
 	}	
 			
 	"NumberBg"	
@@ -86,23 +85,23 @@
 		"xpos"			"41"
 		"ypos"			"99"
 		"zpos"			"0"
-		"wide"			"18"
+		"wide"			"0"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 128"
+		"iconColor"		"255 255 255 128"
 	}
 	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
-		"fgcolor"		"Black"
+		"font"			"TF2S 12"
+		"fgcolor"		"GoobWhite"
 		"xpos"			"0"
-		"ypos"			"98"
+		"ypos"			"92"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"
@@ -114,6 +113,5 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
 	}
 }
