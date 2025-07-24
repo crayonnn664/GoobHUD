@@ -165,7 +165,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"19"	[$WIN32]
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"ypos_hidef"	"-100"	//off-screen
@@ -252,7 +252,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"-5"
+		"xpos"			"-2"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
 		"ypos"			"25"

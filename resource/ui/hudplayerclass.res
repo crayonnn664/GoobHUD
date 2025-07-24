@@ -81,7 +81,8 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/class_spyred"
 		"teambg_3"		"../hud/class_spyblue"			
-	}		
+	}
+	
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"

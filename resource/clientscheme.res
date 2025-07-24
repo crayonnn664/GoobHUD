@@ -27,8 +27,14 @@ Scheme
 		"GoobLowShadow"			"35 20 20 255"
 		"GoobWhiteOutline"		"25 25 25 100"
 		"GoobShadowTransparent"	"25 25 25 100"
+		"GoobShadowBG"			"0 0 0 195"
 		"MedicCharge1"			"243 243 243 255"
 		"MedicCharge2"			"150 150 150 255"
+		"GoobButtonInactive"	"200 200 200 255"
+		"GoobButtonHover"		"243 243 243 255"
+		"GoobButtonClick"		"243 243 243 255"
+		"GoobTeamRedButtonHover"	"204 74 51 255"
+		"GoobTeamBlueButtonHover"	"77 118 179 255"
 
 
 		// base colors

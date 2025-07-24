@@ -1,13 +1,21 @@
-Spectator/Respawn Screen
-Class Select
-Team Select
+-Win Panel
+-End Game Scoreboard
+-End Game Survey Panel
+-Control Point Capture Progress (Is bugged a little)
+-Control Point Icon Letters
+-Team Balance Warning
+-Auto Balance Warning
+-Inspect Panel
+-Taunt Menu
+-Matchmaking Dashboard (In-game Elements)
+-Quests
 
 low priority:
-Inspect Panel? (maybe)
-MvM Hud
+-MvM Hud
 
 lowest priority:
-Menus
+-Menus
+-Alternate Gamemodes:
 Pass Time
 Arena
 Player Destruction
@@ -17,5 +25,6 @@ Territorial Control
 Tug of War
 VsH
 Zombie Infection
+ItemTest (???)
 
 
