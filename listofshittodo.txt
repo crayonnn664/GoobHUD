@@ -1,14 +1,11 @@
--Win Panel
--End Game Scoreboard
--End Game Survey Panel
+-Map Vote
+-Matchmaking Dashboard (In-game Elements)
 -Control Point Capture Progress (Is bugged a little)
 -Control Point Icon Letters
--Team Balance Warning
--Auto Balance Warning
 -Inspect Panel
+-Respawn Screen Extras
 -Taunt Menu
--Matchmaking Dashboard (In-game Elements)
--Quests
+-Win Panel
 
 low priority:
 -MvM Hud
@@ -26,5 +23,6 @@ Tug of War
 VsH
 Zombie Infection
 ItemTest (???)
+Tournament Mode
 
 

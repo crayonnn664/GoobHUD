@@ -137,7 +137,7 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"E. Continue"
+		"labelText"		"E  Continue"
 		"command"		"okay"
 		"font"			"TF2S 18"
 		"textAlignment"	"left"

@@ -252,7 +252,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"-2"
+		"xpos"			"1"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
 		"ypos"			"25"
