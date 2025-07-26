@@ -83,7 +83,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"TeamScoresPanel"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"15"
 			"zpos"			"50"
 			"wide"			"f0"
 			"tall"			"f0"

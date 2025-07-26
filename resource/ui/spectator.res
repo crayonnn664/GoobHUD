@@ -26,7 +26,7 @@
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
@@ -123,7 +123,7 @@
 		"ypos"			"16"	[$WIN32]
 		"xpos"			"r285"	[$X360]
 		"ypos"			"32"	[$X360]
-		"wide"			"240"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"220"	[$X360]
 		"tall"			"20"
 		"tall_hidef"		"30"
@@ -331,8 +331,10 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"GoobShadowTransparent"
+		"paintborder"	"0"
+		"paintbackground"	"1"
+		
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"

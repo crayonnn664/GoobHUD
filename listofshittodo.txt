@@ -1,14 +1,19 @@
--Map Vote
--Matchmaking Dashboard (In-game Elements)
--Control Point Capture Progress (Is bugged a little)
--Control Point Icon Letters
--Inspect Panel
--Respawn Screen Extras
--Taunt Menu
--Win Panel
+-MvM Hud:
+Item Meters
+Scoreboard
+Money
+Disposable Sentry
+Objectives
+Teammate Revive
 
 low priority:
--MvM Hud
+-MvM Hud:
+Robot Count
+Wave Info
+Upgrade Menu
+Boss Health
+Various In-Game Popups
+
 
 lowest priority:
 -Menus
