@@ -384,7 +384,7 @@
 		"fieldName"		"spectator_extras"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"
+		"wide"			"0"
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"

@@ -489,7 +489,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"			"r100"
 			"visible"		"1"
 		}
 	}
@@ -597,7 +597,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"			"r100"
 			"visible"		"1"
 		}
 	}							
@@ -1005,7 +1005,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerScoreLabel"
@@ -1407,7 +1407,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"TF2S 16"
+			"font"			"TF2S 12"
 			"disabledfgcolor2_override"		"GoobWhite"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
@@ -1659,7 +1659,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"TF2S 16"
+			"font"			"TF2S 12"
 			"disabledfgcolor2_override"		"GoobWhite"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
@@ -1858,7 +1858,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"TF2S 16"
+			"font"			"TF2S 12"
 			"disabledfgcolor2_override"		"GoobWhite"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"

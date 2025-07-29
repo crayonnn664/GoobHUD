@@ -35,6 +35,8 @@ Scheme
 		"GoobButtonClick"		"243 243 243 255"
 		"GoobTeamRedButtonHover"	"204 74 51 255"
 		"GoobTeamBlueButtonHover"	"77 118 179 255"
+		"GoobMoneyGood"				"30 243 30 255"
+		"GoobMoneyBad"				"243 30 30 255"
 
 
 		// base colors

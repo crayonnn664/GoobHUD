@@ -1,15 +1,14 @@
+Tournament Mode Hud
 -MvM Hud:
-Item Meters
-Scoreboard
-Money
 Disposable Sentry
 Objectives
 Teammate Revive
+Tournament Mode Hud
 
 low priority:
+-End Game Summary
+-Various In-Game Popups
 -MvM Hud:
-Robot Count
-Wave Info
 Upgrade Menu
 Boss Health
 Various In-Game Popups
@@ -28,6 +27,5 @@ Tug of War
 VsH
 Zombie Infection
 ItemTest (???)
-Tournament Mode
 
 

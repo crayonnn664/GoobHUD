@@ -227,6 +227,11 @@
 		{
 			"visible"		"1"
 		}
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 	"MatchStatusOutline2"
@@ -246,6 +251,11 @@
 		if_match
 		{
 			"visible"		"1"
+		}
+		
+		if_mvm
+		{
+			"visible"		"0"
 		}
 	}
 	
@@ -267,6 +277,11 @@
 		{
 			"visible"		"1"
 		}
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 	"MatchStatusBG"
@@ -286,6 +301,11 @@
 		if_match
 		{
 			"visible"		"1"
+		}
+		
+		if_mvm
+		{
+			"visible"		"0"
 		}
 	}
 
@@ -307,6 +327,11 @@
 		{
 			"visible"		"1"
 		}
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 	"MatchStatusBGBlue"
@@ -326,6 +351,11 @@
 		if_match
 		{
 			"visible"		"1"
+		}
+		
+		if_mvm
+		{
+			"visible"		"0"
 		}
 	}
 	

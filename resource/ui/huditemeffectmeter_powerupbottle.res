@@ -5,12 +5,14 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r86"	[$WIN32]
-		"ypos"			"r102"	[$WIN32]
+		"xpos"			"620"	[$WIN32]
+		"ypos"			"425"	[$WIN32]
 		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r130"	[$WIN32]
-		"wide"			"100"
-		"tall"			"60"
+		"ypos_minmode"	"r74"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
+		"wide"			"200"
+		"tall"			"100"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -22,7 +24,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"90"
+		"wide"			"0"
 		"tall"			"56"
 		"visible"		"1"
 		"visible_minmode"	"0"
@@ -39,14 +41,14 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"12"
+		"xpos"			"62"
 		"xpos_minmode"	"36"
 		"ypos"			"7"
 		"ypos_minmode"	"14"
 		"zpos"			"1"
-		"wide"			"27"
+		"wide"			"20"
 		"wide_minmode"	"20"
-		"tall"			"27"
+		"tall"			"20"
 		"tall_minmode"	"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -58,22 +60,21 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"12"
-		"ypos"					"32"
+		"xpos"					"22"
+		"ypos"					"23"
 		"zpos"					"2"
-		"wide"					"56"
-		"tall"					"25"
+		"wide"					"200"
+		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"north"
-		"centerwrap"			"1"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"TF2S 10"
 	}
 
 	"ItemEffectMeter"
@@ -99,10 +100,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"24"
-		"xpos_minmode"			"40"
-		"ypos"					"11"
-		"ypos_minmode"			"18"
+		"xpos"					"70"
+		"ypos"					"7"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -114,7 +113,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontMediumSmall"
+		"font"					"TF2S 26"
+		"fgcolor"				"GoobWhite"
 	}
 }

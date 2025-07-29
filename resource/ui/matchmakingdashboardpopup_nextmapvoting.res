@@ -13,6 +13,8 @@
 		"proportionaltoparent"	"0"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"GoobShadowTransparent"
 
 		"collapsed_height"	"0"
 		"expanded_height"	"80"
