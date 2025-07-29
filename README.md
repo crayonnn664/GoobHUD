@@ -1,4 +1,4 @@
-  Special Thanks:
+Special Thanks:
   raysfire for his tutorials.
   JarateKing for documentation.
   Whisker for BudHud which I used as a reference point for a lot of the HUD elements I couldn't quite figure out (plus I stole the chat box directly from the HUD teehee).
