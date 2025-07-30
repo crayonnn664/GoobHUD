@@ -1,3 +1,5 @@
+Hud for real goob.
+Baby's first TF2 HUD :D
 Special Thanks:
   raysfire for his tutorials.
   JarateKing for documentation.
