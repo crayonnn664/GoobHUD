@@ -41,7 +41,8 @@
 		"scaleImage"	"1"
 		"PaintBackgroundType" "0"
 		"paintbackground"	"1"
-		"bgcolor_override"	"TanLight"
+		"fgcolor_override"	"GoobWhite"
+		"bgcolor_override"	"GoobWhite"
 	}
 	
 	"EnemyCountCritImageBG"
